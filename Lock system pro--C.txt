@@ -1,0 +1,77 @@
+		lock system using c language
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//note: we will make the password 2001
+
+int main(){
+
+    printf("       Welcome to lock system");
+
+    int password;
+    int fakeInput;
+
+    printf("\n\nplease type your password..");
+    scanf("%d", &password);
+    
+    if (password <=2001 && password >=2001)
+    {
+      
+      
+      printf("    The password is correct :)");
+      printf("    Hello my close friend :)");
+    }
+    else
+    {
+      
+      printf("\n    The password is wrong ");
+      printf("\n    You still have two times");
+      
+      printf("\n  Try Again..");
+      scanf("%d", &password);
+      
+    
+    if (password <=2001 && password >=2001)
+    {
+      
+      
+      printf("\n    The password is correct :)");
+      printf("\n    Hello my close friend :)");
+    }
+    else
+    {
+      
+      printf("\n   The password is wrong ");
+      printf("\n    You still have one times");
+      
+     
+      if (password <=2001 && password >=2001)
+      {
+        
+        
+        printf("\n    The password is correct :)");
+        printf("\n    Hello my close friend :)");
+      }
+      else
+      {
+        
+        
+        printf("\n  WRONG  ");
+        printf("\n  WRONG  ");
+        printf("\n  WRONG  ");
+        printf("\n  WRONG  ");
+        printf("\n  WRONG  ");
+        printf("\n  WRONG  ");
+      }
+    }
+      
+       
+        
+    }
+    scanf("%d", fakeInput);
+    
+    
+return 0;    
+}
+  
